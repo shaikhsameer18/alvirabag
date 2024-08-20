@@ -1,0 +1,38 @@
+{
+  "name": "ecommerce_shabnam",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@emailjs/browser": "^3.11.0",
+    "@sanity/client": "^3.2.0",
+    "@sanity/image-url": "^1.0.1",
+    "canvas-confetti": "^1.5.1",
+    "next": "12.1.0",
+    "next-sanity-image": "^3.2.1",
+    "razorpay": "^2.9.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hot-toast": "^2.2.0",
+    "react-icons": "^4.3.1",
+    "react-whatsapp": "^0.3.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.16.7",
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.4"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "",
+  "license": "ISC"
+}
